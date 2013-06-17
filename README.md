@@ -1,6 +1,11 @@
 # es5-micro-shim
 
-Several shims for ECMAScript 5 functions
+Several shims for ECMAScript 5 functions:
+
+* `Array.isArray`
+* `Function.prototype.bind`
+* `Object.create`
+* `Object.keys`
 
 ## Installation
 
