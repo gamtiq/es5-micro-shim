@@ -30,7 +30,7 @@ Then:
     var keys1 = Object.keys(obj);
     var keys2 = shim.keys(obj);
     
-    someFunction.bind(obj);
+    var boundFunc = someFunction.bind(obj);
     
 ## Licence
 
