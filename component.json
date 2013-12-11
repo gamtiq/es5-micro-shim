@@ -1,27 +1,30 @@
 {
-    "name": "es5-micro-shim",
-    "repo": "gamtiq/es5-micro-shim",
-    "description": "Several shims for ECMAScript 5 functions",
-    "version": "0.0.1",
-    "keywords": [
-        "isArray",
-        "bind",
-        "create",
-        "keys",
-        "es5",
-        "shim",
-        "polyfill"
-    ],
-    "dependencies": {
-        "danmilon/object.keys-shim": "*",
-        "enyo/functionbind": "*",
-        "gamtiq/object-create-shim": "*",
-        "gamtiq/isarray-shim": "*"
-    },
-    "development": {},
-    "license": "MIT",
-    "main": "index.js",
-    "scripts": [
-        "index.js"
-    ]
+  "name": "es5-micro-shim",
+  "repo": "gamtiq/es5-micro-shim",
+  "description": "Several shims for ECMAScript 5 functions",
+  "version": "0.0.2",
+  "keywords": [
+    "isArray",
+    "bind",
+    "create",
+    "keys",
+    "indexOf",
+    "es5",
+    "shim",
+    "polyfill"
+  ],
+  "dependencies": {
+    "danmilon/object.keys-shim": "*",
+    "enyo/functionbind": "*",
+    "gamtiq/object-create-shim": "*",
+    "gamtiq/isarray-shim": "*",
+    "gamtiq/array-indexof-shim": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "remotes": []
 }
