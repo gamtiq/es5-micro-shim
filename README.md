@@ -10,7 +10,7 @@ Several shims for ECMAScript 5 functions:
 
 ## Installation
 
-Install component:
+Install [Component](https://github.com/componentjs/component):
 
     npm install -g component
 
